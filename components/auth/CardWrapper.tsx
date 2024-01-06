@@ -17,7 +17,7 @@ interface CardWrapperProps {
   backButtonHref: string;
   showSocials?: boolean;
 }
-const CardWrapper = ({
+export const CardWrapper = ({
   children,
   headerLabel,
   backButtonLabel,
@@ -41,5 +41,3 @@ const CardWrapper = ({
     </Card>
   );
 };
-
-export default CardWrapper;
