@@ -7,7 +7,7 @@ export const publicRoutes = ["/"];
  * 인증이 필요한 경로 (로그인이 필요한 경로)
  *
  */
-export const authRoutes = ["/login", "/register"];
+export const authRoutes = ["/login", "/register", "/error"];
 
 export const apiAuthPrefix = "/api/auth";
 
